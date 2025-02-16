@@ -8,7 +8,7 @@ authors = [ "Claudio Morgia <claudio.morgia@sonarsource.com>" ]
 readme = "README.md"
 
   [tool.poetry.dependencies]
-  aws-cdk-lib = "^2.1.0"
+  aws-cdk-lib = "^2.178.2"
   constructs = "^10.0.5"
   python = "^3.8"
 
