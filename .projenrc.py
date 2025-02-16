@@ -9,7 +9,7 @@ project = AwsCdkPythonApp(
     poetry=True,
     python_exec="python3",
     version="0.1.0",
-    #context={ "@aws-cdk/core:bootstrapQualifier": "app"}
+    context={ "@aws-cdk/core:bootstrapQualifier": "app"}
 )
 
 project.synth()
